@@ -9,7 +9,7 @@
 :root{--bg:#fff;--text:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--avatar:#111;--avatar-ink:#fff}
 @media (prefers-color-scheme:dark){:root{--bg:#121212;--text:#f2f2f2;--muted:#a0a0a0;--line:#2a2a2a;--avatar:#f2f2f2;--avatar-ink:#111}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:"Mulish",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Mulish",system-ui,-apple-system,"Segoe UI",Baltica-extra-condensed-bold,Arial,sans-serif}
 header{display:flex;align-items:center;justify-content:center;gap:14px;height:86px;border-bottom:1px solid var(--line)}
 .avatar{width:46px;height:46px;border-radius:50%;background:var(--avatar);color:var(--avatar-ink);display:grid;place-items:center;font:700 22px Georgia,serif;overflow:hidden}
 .avatar img{width:100%;height:100%;object-fit:cover}
@@ -33,7 +33,7 @@ main{max-width:1380px;margin:0 auto;padding:0 clamp(8px,4.5vw,63px) 60px}
   <div class="avatar" id="avatar"></div>
   <span class="handle" id="handle"></span>
 </header>
-<p class="hint">Click on media to learn more</p>
+<p class="hint">Tap on media to learn more</p>
 <main><div class="grid" id="grid"></div><p class="error" id="error" hidden></p></main>
 
 <script>
